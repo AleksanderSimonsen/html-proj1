@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        //navbar
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
         <div class="navbar">
             <ul>
                 <li><a href="page1.html">Page 1</a></li>
@@ -13,6 +15,34 @@
                 <li><a href="page4.html">Page 4</a></li>
             </ul>
         </div>
-        //html form - 1 fieldset, 3 imputs (2 text, checkbox), 1 textarea, proper labels, 1 button
-    </body>
+
+            <form>
+                <fieldset>
+                    <legend>Form demo</legend>
+                    <div class="text-input">
+                        <label for="text1">Text 1</label>
+                        <input type="text" id="text1" />
+
+                    </div>
+                    <div class="text-input">
+                        <label for="text2">Text 2</label>
+                        <input type="text" id="text2" />
+
+                    </div>
+                    <div class="checkbox-input">
+                        <label for="checkbox-input 1">Checkbox 1: </label>
+                        <input type="checkbox" id="checkbox-input 1" />
+
+                    </div>
+                    <div class="textarea">
+                        <label for="textarea-1">Textarea 1</label>
+                        <textarea id="textarea-1"></textarea>
+                    </div>
+                    <button class="submit-button">Submit!</button>
+                </fieldset>
+            </form>
+
+    </div>
+</body>
+
 </html>
